@@ -19,16 +19,15 @@ echo "This jobs runs on the following machines: $(cat "$PBS_NODEFILE" | uniq)"
 
 
 
-module rm languages/gcc-7.1.0
+module load languages/gcc-7.1.0
 
 module load openmpi/gcc/64/1.6.5
-module load languages/intel-compiler-16-u2
+
+cd data/
+
 mpirun -np 2     ./pb_mpi -d brpo/brpo.ali -f -x 1 5 brpo/brpo.tree 
 mpirun -np 4     ./pb_mpi -d brpo/brpo.ali -f -x 1 5 brpo/brpo.tree 
 mpirun -np 8     ./pb_mpi -d brpo/brpo.ali -f -x 1 5 brpo/brpo.tree 
 mpirun -np 16    ./pb_mpi -d brpo/brpo.ali -f -x 1 5 brpo/brpo.tree 
-module load languages/intel-compiler-16-u2
-module load openmpi/gcc/64/1.6.5
-
 
 

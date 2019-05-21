@@ -1,0 +1,89 @@
+Running on host: node31-034
+Time is: Tue May 21 15:12:01 BST 2019
+Directory is: /newhome/hw16471/pbmpi
+PBS job ID is: 8433537.master.cm.cluster
+This jobs runs on the following machines: node31-034
+
+model:
+stick-breaking Dirichlet process mixture (cat)
+exchangeabilities estimated from data (gtr)
+discrete gamma distribution of rates across sites (4 categories)
+
+read data from file : brpo/brpo.ali
+number of taxa  : 30
+number of sites : 599
+number of states: 20
+
+chain name : brpo/brpo.tree
+0	0	0	-25942.21445	4.624202253	1	9	2.604941359	20	4.831889272	1.019831151
+run started
+
+1	20.531	62	-13681.81499	7.2011994	0.5039731491	43	2.27508731	12.81448518	4.644182522	0.9696764252
+2	23.328	54	-13218.98636	8.99734612	0.4793673865	49	2.215326333	12.09102258	4.585448817	0.9231491283
+3	25.062	51	-12897.27602	9.548556751	0.521039228	67	2.170465446	10.96601895	4.593788888	1.058815453
+4	26.32	48	-12617.14761	9.417874709	0.5065003767	68	2.17785463	11.42209499	4.577723632	0.9984716536
+brpo/brpo.tree: stopping after 5 points.
+
+
+model:
+stick-breaking Dirichlet process mixture (cat)
+exchangeabilities estimated from data (gtr)
+discrete gamma distribution of rates across sites (4 categories)
+
+read data from file : brpo/brpo.ali
+number of taxa  : 30
+number of sites : 599
+number of states: 20
+
+chain name : brpo/brpo.tree
+0	0	0	-27290.89906	5.322435732	1	9	2.486010781	20	4.749581665	0.9672461109
+run started
+
+1	7.194	60	-14047.30961	6.585935692	0.4539168633	28	2.204197546	11.50356856	4.721391033	0.9966682639
+2	7.687	54	-13414.49927	7.638761896	0.4528998919	42	2.119221621	10.08894699	4.709590463	1.064716083
+3	8.766	50	-12909.22724	9.113187106	0.487158026	49	2.128106446	9.815961387	4.602918192	1.053082791
+4	9.26	47	-12664.10696	8.280915468	0.5117669701	68	2.240067583	12.65229548	4.629644314	1.04833155
+brpo/brpo.tree: stopping after 5 points.
+
+
+model:
+stick-breaking Dirichlet process mixture (cat)
+exchangeabilities estimated from data (gtr)
+discrete gamma distribution of rates across sites (4 categories)
+
+read data from file : brpo/brpo.ali
+number of taxa  : 30
+number of sites : 599
+number of states: 20
+
+chain name : brpo/brpo.tree
+0	0	0	-24295.2507	5.556181529	1	10	2.537845706	20	4.852552392	0.914296936
+run started
+
+1	3.824	52	-14027.29875	7.825441011	0.5459417733	39	2.16587302	11.62665798	4.777198745	1.121765056
+2	4.624	44	-13524.13932	10.1584233	0.4450223356	46	2.076184112	9.407886981	4.720767641	1.015831442
+3	4.737	42	-12886.67995	11.22301208	0.4431011702	54	2.065452054	9.35508222	4.597110422	0.9854771031
+4	5.384	36	-12613.44578	11.27417866	0.52345661	81	2.076554426	9.443576428	4.657006819	1.069399686
+brpo/brpo.tree: stopping after 5 points.
+
+
+model:
+stick-breaking Dirichlet process mixture (cat)
+exchangeabilities estimated from data (gtr)
+discrete gamma distribution of rates across sites (4 categories)
+
+read data from file : brpo/brpo.ali
+number of taxa  : 30
+number of sites : 599
+number of states: 20
+
+chain name : brpo/brpo.tree
+0	0	0	-24686.69741	4.942994704	1	3	2.60086103	20	4.783546981	1.0036241
+run started
+
+1	3.168	41	-14259.1095	7.941215029	0.5737730754	40	2.237477352	11.91015777	4.705019088	0.9962389677
+2	3.633	35	-13470.17435	9.209964385	0.513796678	44	2.146102534	11.06216142	4.676742292	1.006286682
+3	3.951	31	-13051.76103	10.14375544	0.4748830213	64	2.113196658	9.985272567	4.639856741	1.017243882
+4	4.387	29	-12612.27552	10.41665397	0.4945389025	71	2.069438867	8.503760776	4.582001051	1.054073218
+brpo/brpo.tree: stopping after 5 points.
+
