@@ -1,0 +1,28 @@
+#!/bin/bash
+
+#PBS -N phylo-bayes
+#PBS -j oe
+#PBS -o pb_jobreport.out
+#PBS -q teaching
+#PBS -l nodes=1:ppn=16,walltime=00:15:00
+
+# Change the working directory (default is home directory)
+cd "$PBS_O_WORKDIR"
+
+
+
+echo "Running on host: $(hostname)"
+echo "Time is: $(date)"
+echo "Directory is: $(pwd)"
+echo "PBS job ID is: $PBS_JOBID"
+echo "This jobs runs on the following machines: $(cat "$PBS_NODEFILE" | uniq)"
+
+
+module load intel-mpi/64/4.1.0/024
+module load languages/intel-compiler-16-u2
+mpirun -np 2     ./pb_mpi -d brpo/brpo.ali -f -x 1 5 brpo/brpo.tree 
+mpirun -np 4     ./pb_mpi -d brpo/brpo.ali -f -x 1 5 brpo/brpo.tree 
+mpirun -np 8     ./pb_mpi -d brpo/brpo.ali -f -x 1 5 brpo/brpo.tree 
+mpirun -np 16    ./pb_mpi -d brpo/brpo.ali -f -x 1 5 brpo/brpo.tree 
+module load languages/intel-compiler-16-u2
+module load intel-mpi/64/4.1.0/024
