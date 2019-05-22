@@ -312,6 +312,7 @@ class Model	{
 		stringstream ss;
 		process->TraceHeader(ss);
 		os << ss.str();
+        cout << ss.str();
 	}
 
 	void Trace(ostream& os)	{
