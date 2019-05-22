@@ -1,0 +1,50 @@
+AACodonMutSelFinitePhyloProcess.o: AACodonMutSelFinitePhyloProcess.cpp \
+ StringStreamUtils.h AACodonMutSelFinitePhyloProcess.h \
+ AACodonMutSelFiniteSubstitutionProcess.h \
+ AACodonMutSelFiniteProfileProcess.h MatrixFiniteProfileProcess.h \
+ MatrixMixtureProfileProcess.h MatrixProfileProcess.h SubMatrix.h \
+ Random.h ProfileProcess.h Chrono.h StateSpace.h BiologicalSequences.h \
+ MixtureProfileProcess.h FiniteProfileProcess.h \
+ AACodonMutSelProfileProcess.h CodonSubMatrix.h CodonStateSpace.h \
+ CodonSequenceAlignment.h SequenceAlignment.h TaxonSet.h \
+ GeneralPathSuffStatMatrixProfileProcess.h \
+ GeneralPathSuffStatMatrixMixtureProfileProcess.h UniformRateProcess.h \
+ RateProcess.h GeneralPathSuffStatMatrixSubstitutionProcess.h \
+ MatrixSubstitutionProcess.h SubstitutionProcess.h BranchSitePath.h \
+ Tree.h GeneralPathSuffStatMatrixPhyloProcess.h MatrixPhyloProcess.h \
+ PhyloProcess.h ZippedSequenceAlignment.h BranchProcess.h Parallel.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/mpi.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/mpi_portable_platform.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/mpicxx.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/constants.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/functions.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/datatype.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/exception.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/op.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/status.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/request.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/group.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/comm.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/win.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/file.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/errhandler.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/intracomm.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/topology.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/intercomm.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/info.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/datatype_inln.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/functions_inln.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/request_inln.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/comm_inln.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/intracomm_inln.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/topology_inln.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/intercomm_inln.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/group_inln.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/op_inln.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/errhandler_inln.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/status_inln.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/info_inln.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/win_inln.h \
+ /cm/shared/apps/openmpi/gcc/64/1.6.5/include/openmpi/ompi/mpi/cxx/file_inln.h \
+ GTRSubstitutionProcess.h GTRProfileProcess.h GTRSubMatrix.h \
+ GammaBranchProcess.h

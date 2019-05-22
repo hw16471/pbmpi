@@ -1,0 +1,335 @@
+In file included from MatrixPhyloProcess.h:21,
+                 from ExpoConjugateGTRPhyloProcess.h:20,
+                 from RASCATGTRFiniteGammaPhyloProcess.h:20,
+                 from Model.h:19,
+                 from PB.cpp:17:
+PhyloProcess.h: In member function ‘virtual void PhyloProcess::QuickUpdate()’:
+PhyloProcess.h:235: warning: unused variable ‘stat’
+In file included from MatrixFiniteProfileProcess.h:21,
+                 from ExpoConjugateGTRFiniteProfileProcess.h:19,
+                 from RASCATGTRFiniteGammaPhyloProcess.h:22,
+                 from Model.h:19,
+                 from PB.cpp:17:
+FiniteProfileProcess.h: In constructor ‘FiniteProfileProcess::FiniteProfileProcess(int)’:
+FiniteProfileProcess.h:93: warning: ‘FiniteProfileProcess::empweight’ will be initialized after
+FiniteProfileProcess.h:87: warning:   ‘int FiniteProfileProcess::dirweightprior’
+FiniteProfileProcess.h:28: warning:   when initialized here
+In file included from AACodonMutSelProfileProcess.h:20,
+                 from AACodonMutSelSBDPProfileProcess.h:21,
+                 from AACodonMutSelSBDPSubstitutionProcess.h:20,
+                 from AACodonMutSelSBDPPhyloProcess.h:20,
+                 from Model.h:23,
+                 from PB.cpp:17:
+CodonSubMatrix.h: In constructor ‘AACodonMutSelProfileSubMatrix::AACodonMutSelProfileSubMatrix(CodonStateSpace*, double*, double*, double*, double*, double*, bool)’:
+CodonSubMatrix.h:96: warning: ‘AACodonMutSelProfileSubMatrix::codonprofile’ will be initialized after
+CodonSubMatrix.h:95: warning:   ‘double* AACodonMutSelProfileSubMatrix::aaprofile’
+CodonSubMatrix.h:81: warning:   when initialized here
+In file included from CodonSubMatrix.cpp:16:
+CodonSubMatrix.h: In constructor ‘AACodonMutSelProfileSubMatrix::AACodonMutSelProfileSubMatrix(CodonStateSpace*, double*, double*, double*, double*, double*, bool)’:
+CodonSubMatrix.h:96: warning: ‘AACodonMutSelProfileSubMatrix::codonprofile’ will be initialized after
+CodonSubMatrix.h:95: warning:   ‘double* AACodonMutSelProfileSubMatrix::aaprofile’
+CodonSubMatrix.h:81: warning:   when initialized here
+CodonSubMatrix.cpp: In member function ‘virtual void AACodonMutSelProfileSubMatrix::ComputeArray(int)’:
+CodonSubMatrix.cpp:182: warning: ‘deltaF’ may be used uninitialized in this function
+Chrono.cpp: In member function ‘double Chrono::GetTime()’:
+Chrono.cpp:68: warning: control reaches end of non-void function
+GammaBranchProcess.cpp: In member function ‘double GammaBranchProcess::LogHyperPrior()’:
+GammaBranchProcess.cpp:95: warning: division by zero
+GammaBranchProcess.cpp: In member function ‘double GammaBranchProcess::NonMPIMove(double, int)’:
+GammaBranchProcess.cpp:155: warning: no return statement in function returning non-void
+In file included from MatrixFiniteProfileProcess.h:21,
+                 from ExpoConjugateGTRFiniteProfileProcess.h:19,
+                 from ExpoConjugateGTRFiniteProfileProcess.cpp:17:
+FiniteProfileProcess.h: In constructor ‘FiniteProfileProcess::FiniteProfileProcess(int)’:
+FiniteProfileProcess.h:93: warning: ‘FiniteProfileProcess::empweight’ will be initialized after
+FiniteProfileProcess.h:87: warning:   ‘int FiniteProfileProcess::dirweightprior’
+FiniteProfileProcess.h:28: warning:   when initialized here
+"DPProfileProcess.cpp", line 77: error: more than one instance of overloaded
+          function "log" matches the argument list:
+            function "log(long double)"
+            function "log(float)"
+            function "log(double)"
+            argument types are: (int)
+  			double tmp = log(occupancy[k]) * LogProxy(i,k);
+  			             ^
+
+1 error detected in the compilation of "DPProfileProcess.cpp".
+"/newhome/hw16471/pbmpi/sources/DPProfileProcess.cpp", line 27: warning: 
+          variable "meandir" was declared but never referenced
+  const double meandir[] = {0.499737,0.171262,0.183399,0.225593,0.197453,0.211819,0.173191,0.175454,0.3181,0.240008,0.187577,0.324778,0.205587,0.395097,0.162356,0.519427,0.526213,0.349177,0.0511527,0.130222};
+               ^
+
+/newhome/hw16471/pbmpi/sources/DPProfileProcess.cpp: In member function ‘virtual double DPProfileProcess::LogHyperPrior()’:
+/newhome/hw16471/pbmpi/sources/DPProfileProcess.cpp:117: warning: division by zero
+/newhome/hw16471/pbmpi/sources/DPProfileProcess.cpp:127: warning: division by zero
+In file included from FiniteProfileProcess.cpp:18:
+FiniteProfileProcess.h: In constructor ‘FiniteProfileProcess::FiniteProfileProcess(int)’:
+FiniteProfileProcess.h:93: warning: ‘FiniteProfileProcess::empweight’ will be initialized after
+FiniteProfileProcess.h:87: warning:   ‘int FiniteProfileProcess::dirweightprior’
+FiniteProfileProcess.h:28: warning:   when initialized here
+FiniteProfileProcess.cpp: In member function ‘virtual double FiniteProfileProcess::LogHyperPrior()’:
+FiniteProfileProcess.cpp:161: warning: division by zero
+FiniteProfileProcess.cpp: In member function ‘virtual double FiniteProfileProcess::MoveHyper(double, int)’:
+FiniteProfileProcess.cpp:169: warning: suggest parentheses around ‘&&’ within ‘||’
+In file included from PoissonFiniteProfileProcess.h:20,
+                 from PoissonFiniteProfileProcess.cpp:17:
+FiniteProfileProcess.h: In constructor ‘FiniteProfileProcess::FiniteProfileProcess(int)’:
+FiniteProfileProcess.h:93: warning: ‘FiniteProfileProcess::empweight’ will be initialized after
+FiniteProfileProcess.h:87: warning:   ‘int FiniteProfileProcess::dirweightprior’
+FiniteProfileProcess.h:28: warning:   when initialized here
+In file included from MatrixFiniteProfileProcess.h:21,
+                 from MatrixFiniteProfileProcess.cpp:17:
+FiniteProfileProcess.h: In constructor ‘FiniteProfileProcess::FiniteProfileProcess(int)’:
+FiniteProfileProcess.h:93: warning: ‘FiniteProfileProcess::empweight’ will be initialized after
+FiniteProfileProcess.h:87: warning:   ‘int FiniteProfileProcess::dirweightprior’
+FiniteProfileProcess.h:28: warning:   when initialized here
+In file included from CodonMutSelProfileProcess.h:20,
+                 from CodonMutSelProfileProcess.cpp:17:
+CodonSubMatrix.h: In constructor ‘AACodonMutSelProfileSubMatrix::AACodonMutSelProfileSubMatrix(CodonStateSpace*, double*, double*, double*, double*, double*, bool)’:
+CodonSubMatrix.h:96: warning: ‘AACodonMutSelProfileSubMatrix::codonprofile’ will be initialized after
+CodonSubMatrix.h:95: warning:   ‘double* AACodonMutSelProfileSubMatrix::aaprofile’
+CodonSubMatrix.h:81: warning:   when initialized here
+In file included from AACodonMutSelProfileProcess.h:20,
+                 from AACodonMutSelProfileProcess.cpp:17:
+CodonSubMatrix.h: In constructor ‘AACodonMutSelProfileSubMatrix::AACodonMutSelProfileSubMatrix(CodonStateSpace*, double*, double*, double*, double*, double*, bool)’:
+CodonSubMatrix.h:96: warning: ‘AACodonMutSelProfileSubMatrix::codonprofile’ will be initialized after
+CodonSubMatrix.h:95: warning:   ‘double* AACodonMutSelProfileSubMatrix::aaprofile’
+CodonSubMatrix.h:81: warning:   when initialized here
+In file included from PhyloProcess.cpp:20:
+PhyloProcess.h: In member function ‘virtual void PhyloProcess::QuickUpdate()’:
+PhyloProcess.h:235: warning: unused variable ‘stat’
+PhyloProcess.cpp: In member function ‘void PhyloProcess::RecursiveGibbsSPRScan(Link*, Link*, Link*, Link*, double*, int&)’:
+PhyloProcess.cpp:710: warning: unused variable ‘tmp1’
+PhyloProcess.cpp: In member function ‘void PhyloProcess::RecursiveNonMPIGibbsSPRScan(Link*, Link*, Link*, Link*, std::map<std::pair<Link*, Link*>, double, std::less<std::pair<Link*, Link*> >, std::allocator<std::pair<const std::pair<Link*, Link*>, double> > >&)’:
+PhyloProcess.cpp:823: warning: unused variable ‘tmp1’
+PhyloProcess.cpp: In member function ‘virtual void PhyloProcess::GlobalUpdateSiteRateSuffStat()’:
+PhyloProcess.cpp:1893: warning: unused variable ‘stat’
+PhyloProcess.cpp: In member function ‘void PhyloProcess::GlobalGetMeanSiteRate()’:
+PhyloProcess.cpp:1916: warning: unused variable ‘workload’
+PhyloProcess.cpp: In member function ‘void PhyloProcess::ReadSiteRates(std::string, int, int, int)’:
+PhyloProcess.cpp:2073: warning: name lookup of ‘i’ changed
+PhyloProcess.cpp:2043: warning:   matches this ‘i’ under ISO standard rules
+PhyloProcess.cpp:2067: warning:   matches this ‘i’ under old rules
+PhyloProcess.cpp: In member function ‘virtual void PhyloProcess::AllPostPred(std::string, int, int, int, int, int, int)’:
+PhyloProcess.cpp:2104: warning: unused variable ‘datacopy’
+PhyloProcess.cpp: In member function ‘virtual void PhyloProcess::PostPred(int, std::string, int, int, int, int, int, int, int)’:
+PhyloProcess.cpp:2264: warning: unused variable ‘datacopy’
+PhyloProcess.cpp: In member function ‘virtual void PhyloProcess::ReadCV(std::string, std::string, int, int, int, int, GeneticCodeType)’:
+PhyloProcess.cpp:2530: warning: name lookup of ‘i’ changed
+PhyloProcess.cpp:2502: warning:   matches this ‘i’ under ISO standard rules
+PhyloProcess.cpp:2522: warning:   matches this ‘i’ under old rules
+PhyloProcess.cpp: In member function ‘void PhyloProcess::ReadAncestral(std::string, int, int, int)’:
+PhyloProcess.cpp:2616: warning: unused variable ‘total’
+PhyloProcess.cpp: In member function ‘virtual void PhyloProcess::ReadSiteLogL(std::string, int, int, int)’:
+PhyloProcess.cpp:2898: warning: name lookup of ‘i’ changed
+PhyloProcess.cpp:2835: warning:   matches this ‘i’ under ISO standard rules
+PhyloProcess.cpp:2874: warning:   matches this ‘i’ under old rules
+PhyloProcess.cpp: In member function ‘void PhyloProcess::ReadMap(std::string, int, int, int)’:
+PhyloProcess.cpp:3053: warning: name lookup of ‘i’ changed
+PhyloProcess.cpp:2971: warning:   matches this ‘i’ under ISO standard rules
+PhyloProcess.cpp:3044: warning:   matches this ‘i’ under old rules
+PhyloProcess.cpp:3001: warning: unused variable ‘stat’
+PhyloProcess.cpp: In member function ‘void PhyloProcess::GlobalWriteMappings(std::string)’:
+PhyloProcess.cpp:3069: warning: unused variable ‘stat’
+In file included from PoissonPhyloProcess.h:20,
+                 from PoissonPhyloProcess.cpp:20:
+PhyloProcess.h: In member function ‘virtual void PhyloProcess::QuickUpdate()’:
+PhyloProcess.h:235: warning: unused variable ‘stat’
+In file included from MatrixPhyloProcess.h:21,
+                 from MatrixPhyloProcess.cpp:17:
+PhyloProcess.h: In member function ‘virtual void PhyloProcess::QuickUpdate()’:
+PhyloProcess.h:235: warning: unused variable ‘stat’
+In file included from MatrixPhyloProcess.h:21,
+                 from ExpoConjugateGTRPhyloProcess.h:20,
+                 from ExpoConjugateGTRPhyloProcess.cpp:17:
+PhyloProcess.h: In member function ‘virtual void PhyloProcess::QuickUpdate()’:
+PhyloProcess.h:235: warning: unused variable ‘stat’
+In file included from MatrixPhyloProcess.h:21,
+                 from GeneralPathSuffStatMatrixPhyloProcess.h:20,
+                 from GeneralPathSuffStatMatrixPhyloProcess.cpp:18:
+PhyloProcess.h: In member function ‘virtual void PhyloProcess::QuickUpdate()’:
+PhyloProcess.h:235: warning: unused variable ‘stat’
+In file included from PoissonPhyloProcess.h:20,
+                 from RASCATGammaPhyloProcess.h:21,
+                 from RASCATGammaPhyloProcess.cpp:19:
+PhyloProcess.h: In member function ‘virtual void PhyloProcess::QuickUpdate()’:
+PhyloProcess.h:235: warning: unused variable ‘stat’
+RASCATGammaPhyloProcess.cpp: In member function ‘void RASCATGammaPhyloProcess::ReadSiteProfiles(std::string, int, int, int)’:
+RASCATGammaPhyloProcess.cpp:396: warning: name lookup of ‘i’ changed
+RASCATGammaPhyloProcess.cpp:375: warning:   matches this ‘i’ under ISO standard rules
+RASCATGammaPhyloProcess.cpp:389: warning:   matches this ‘i’ under old rules
+In file included from PoissonPhyloProcess.h:20,
+                 from RASCATGammaPhyloProcess.h:21,
+                 from RASCATSBDPGammaPhyloProcess.h:20,
+                 from RASCATSBDPGammaPhyloProcess.cpp:18:
+PhyloProcess.h: In member function ‘virtual void PhyloProcess::QuickUpdate()’:
+PhyloProcess.h:235: warning: unused variable ‘stat’
+In file included from PoissonPhyloProcess.h:20,
+                 from RASCATFiniteGammaPhyloProcess.h:21,
+                 from RASCATFiniteGammaPhyloProcess.cpp:19:
+PhyloProcess.h: In member function ‘virtual void PhyloProcess::QuickUpdate()’:
+PhyloProcess.h:235: warning: unused variable ‘stat’
+In file included from PoissonFiniteProfileProcess.h:20,
+                 from RASCATFiniteGammaPhyloProcess.h:23,
+                 from RASCATFiniteGammaPhyloProcess.cpp:19:
+FiniteProfileProcess.h: In constructor ‘FiniteProfileProcess::FiniteProfileProcess(int)’:
+FiniteProfileProcess.h:93: warning: ‘FiniteProfileProcess::empweight’ will be initialized after
+FiniteProfileProcess.h:87: warning:   ‘int FiniteProfileProcess::dirweightprior’
+FiniteProfileProcess.h:28: warning:   when initialized here
+In file included from MatrixPhyloProcess.h:21,
+                 from ExpoConjugateGTRPhyloProcess.h:20,
+                 from RASCATGTRFiniteGammaPhyloProcess.h:20,
+                 from RASCATGTRFiniteGammaPhyloProcess.cpp:19:
+PhyloProcess.h: In member function ‘virtual void PhyloProcess::QuickUpdate()’:
+PhyloProcess.h:235: warning: unused variable ‘stat’
+In file included from MatrixFiniteProfileProcess.h:21,
+                 from ExpoConjugateGTRFiniteProfileProcess.h:19,
+                 from RASCATGTRFiniteGammaPhyloProcess.h:22,
+                 from RASCATGTRFiniteGammaPhyloProcess.cpp:19:
+FiniteProfileProcess.h: In constructor ‘FiniteProfileProcess::FiniteProfileProcess(int)’:
+FiniteProfileProcess.h:93: warning: ‘FiniteProfileProcess::empweight’ will be initialized after
+FiniteProfileProcess.h:87: warning:   ‘int FiniteProfileProcess::dirweightprior’
+FiniteProfileProcess.h:28: warning:   when initialized here
+RASCATGTRFiniteGammaPhyloProcess.cpp: In member function ‘virtual void RASCATGTRFiniteGammaPhyloProcess::SlaveComputeSiteLogL()’:
+RASCATGTRFiniteGammaPhyloProcess.cpp:475: warning: unused variable ‘totweight’
+RASCATGTRFiniteGammaPhyloProcess.cpp: In member function ‘void RASCATGTRFiniteGammaPhyloProcess::ReadSiteProfiles(std::string, int, int, int)’:
+RASCATGTRFiniteGammaPhyloProcess.cpp:608: warning: name lookup of ‘i’ changed
+RASCATGTRFiniteGammaPhyloProcess.cpp:587: warning:   matches this ‘i’ under ISO standard rules
+RASCATGTRFiniteGammaPhyloProcess.cpp:601: warning:   matches this ‘i’ under old rules
+In file included from MatrixPhyloProcess.h:21,
+                 from ExpoConjugateGTRPhyloProcess.h:20,
+                 from RASCATGTRDPGammaPhyloProcess.h:20,
+                 from RASCATGTRDPGammaPhyloProcess.cpp:17:
+PhyloProcess.h: In member function ‘virtual void PhyloProcess::QuickUpdate()’:
+PhyloProcess.h:235: warning: unused variable ‘stat’
+In file included from MatrixPhyloProcess.h:21,
+                 from ExpoConjugateGTRPhyloProcess.h:20,
+                 from RASCATGTRSBDPGammaPhyloProcess.h:20,
+                 from RASCATGTRSBDPGammaPhyloProcess.cpp:20:
+PhyloProcess.h: In member function ‘virtual void PhyloProcess::QuickUpdate()’:
+PhyloProcess.h:235: warning: unused variable ‘stat’
+RASCATGTRSBDPGammaPhyloProcess.cpp: In member function ‘virtual void RASCATGTRSBDPGammaPhyloProcess::ReadPB(int, char**)’:
+RASCATGTRSBDPGammaPhyloProcess.cpp:208: warning: unused variable ‘nocc’
+RASCATGTRSBDPGammaPhyloProcess.cpp: In member function ‘void RASCATGTRSBDPGammaPhyloProcess::ReadSiteProfiles(std::string, int, int, int)’:
+RASCATGTRSBDPGammaPhyloProcess.cpp:509: warning: name lookup of ‘i’ changed
+RASCATGTRSBDPGammaPhyloProcess.cpp:488: warning:   matches this ‘i’ under ISO standard rules
+RASCATGTRSBDPGammaPhyloProcess.cpp:502: warning:   matches this ‘i’ under old rules
+In file included from MatrixFiniteProfileProcess.h:21,
+                 from AACodonMutSelFiniteProfileProcess.h:20,
+                 from AACodonMutSelFiniteSubstitutionProcess.h:20,
+                 from AACodonMutSelFinitePhyloProcess.h:20,
+                 from AACodonMutSelFinitePhyloProcess.cpp:18:
+FiniteProfileProcess.h: In constructor ‘FiniteProfileProcess::FiniteProfileProcess(int)’:
+FiniteProfileProcess.h:93: warning: ‘FiniteProfileProcess::empweight’ will be initialized after
+FiniteProfileProcess.h:87: warning:   ‘int FiniteProfileProcess::dirweightprior’
+FiniteProfileProcess.h:28: warning:   when initialized here
+In file included from AACodonMutSelProfileProcess.h:20,
+                 from AACodonMutSelFiniteProfileProcess.h:21,
+                 from AACodonMutSelFiniteSubstitutionProcess.h:20,
+                 from AACodonMutSelFinitePhyloProcess.h:20,
+                 from AACodonMutSelFinitePhyloProcess.cpp:18:
+CodonSubMatrix.h: In constructor ‘AACodonMutSelProfileSubMatrix::AACodonMutSelProfileSubMatrix(CodonStateSpace*, double*, double*, double*, double*, double*, bool)’:
+CodonSubMatrix.h:96: warning: ‘AACodonMutSelProfileSubMatrix::codonprofile’ will be initialized after
+CodonSubMatrix.h:95: warning:   ‘double* AACodonMutSelProfileSubMatrix::aaprofile’
+CodonSubMatrix.h:81: warning:   when initialized here
+In file included from MatrixPhyloProcess.h:21,
+                 from GeneralPathSuffStatMatrixPhyloProcess.h:20,
+                 from AACodonMutSelFinitePhyloProcess.h:21,
+                 from AACodonMutSelFinitePhyloProcess.cpp:18:
+PhyloProcess.h: In member function ‘virtual void PhyloProcess::QuickUpdate()’:
+PhyloProcess.h:235: warning: unused variable ‘stat’
+AACodonMutSelFinitePhyloProcess.cpp: In member function ‘void AACodonMutSelFinitePhyloProcess::ReadMapStats(std::string, int, int, int)’:
+AACodonMutSelFinitePhyloProcess.cpp:444: warning: unused variable ‘stat’
+In file included from MatrixFiniteProfileProcess.h:21,
+                 from CodonMutSelFiniteProfileProcess.h:20,
+                 from CodonMutSelFiniteSubstitutionProcess.h:20,
+                 from CodonMutSelFinitePhyloProcess.h:20,
+                 from CodonMutSelFinitePhyloProcess.cpp:18:
+FiniteProfileProcess.h: In constructor ‘FiniteProfileProcess::FiniteProfileProcess(int)’:
+FiniteProfileProcess.h:93: warning: ‘FiniteProfileProcess::empweight’ will be initialized after
+FiniteProfileProcess.h:87: warning:   ‘int FiniteProfileProcess::dirweightprior’
+FiniteProfileProcess.h:28: warning:   when initialized here
+In file included from CodonMutSelProfileProcess.h:20,
+                 from CodonMutSelFiniteProfileProcess.h:21,
+                 from CodonMutSelFiniteSubstitutionProcess.h:20,
+                 from CodonMutSelFinitePhyloProcess.h:20,
+                 from CodonMutSelFinitePhyloProcess.cpp:18:
+CodonSubMatrix.h: In constructor ‘AACodonMutSelProfileSubMatrix::AACodonMutSelProfileSubMatrix(CodonStateSpace*, double*, double*, double*, double*, double*, bool)’:
+CodonSubMatrix.h:96: warning: ‘AACodonMutSelProfileSubMatrix::codonprofile’ will be initialized after
+CodonSubMatrix.h:95: warning:   ‘double* AACodonMutSelProfileSubMatrix::aaprofile’
+CodonSubMatrix.h:81: warning:   when initialized here
+In file included from MatrixPhyloProcess.h:21,
+                 from GeneralPathSuffStatMatrixPhyloProcess.h:20,
+                 from CodonMutSelFinitePhyloProcess.h:21,
+                 from CodonMutSelFinitePhyloProcess.cpp:18:
+PhyloProcess.h: In member function ‘virtual void PhyloProcess::QuickUpdate()’:
+PhyloProcess.h:235: warning: unused variable ‘stat’
+CodonMutSelFinitePhyloProcess.cpp: In member function ‘virtual void CodonMutSelFinitePhyloProcess::SlaveUpdateParameters()’:
+CodonMutSelFinitePhyloProcess.cpp:31: warning: unused variable ‘nstate’
+CodonMutSelFinitePhyloProcess.cpp: In member function ‘virtual void CodonMutSelFinitePhyloProcess::GlobalUpdateParameters()’:
+CodonMutSelFinitePhyloProcess.cpp:120: warning: unused variable ‘nstate’
+In file included from CodonMutSelProfileProcess.h:20,
+                 from CodonMutSelSBDPProfileProcess.h:21,
+                 from CodonMutSelSBDPSubstitutionProcess.h:20,
+                 from CodonMutSelSBDPPhyloProcess.h:20,
+                 from CodonMutSelSBDPPhyloProcess.cpp:19:
+CodonSubMatrix.h: In constructor ‘AACodonMutSelProfileSubMatrix::AACodonMutSelProfileSubMatrix(CodonStateSpace*, double*, double*, double*, double*, double*, bool)’:
+CodonSubMatrix.h:96: warning: ‘AACodonMutSelProfileSubMatrix::codonprofile’ will be initialized after
+CodonSubMatrix.h:95: warning:   ‘double* AACodonMutSelProfileSubMatrix::aaprofile’
+CodonSubMatrix.h:81: warning:   when initialized here
+In file included from MatrixPhyloProcess.h:21,
+                 from GeneralPathSuffStatMatrixPhyloProcess.h:20,
+                 from CodonMutSelSBDPPhyloProcess.h:21,
+                 from CodonMutSelSBDPPhyloProcess.cpp:19:
+PhyloProcess.h: In member function ‘virtual void PhyloProcess::QuickUpdate()’:
+PhyloProcess.h:235: warning: unused variable ‘stat’
+In file included from AACodonMutSelProfileProcess.h:20,
+                 from AACodonMutSelSBDPProfileProcess.h:21,
+                 from AACodonMutSelSBDPSubstitutionProcess.h:20,
+                 from AACodonMutSelSBDPPhyloProcess.h:20,
+                 from AACodonMutSelSBDPPhyloProcess.cpp:19:
+CodonSubMatrix.h: In constructor ‘AACodonMutSelProfileSubMatrix::AACodonMutSelProfileSubMatrix(CodonStateSpace*, double*, double*, double*, double*, double*, bool)’:
+CodonSubMatrix.h:96: warning: ‘AACodonMutSelProfileSubMatrix::codonprofile’ will be initialized after
+CodonSubMatrix.h:95: warning:   ‘double* AACodonMutSelProfileSubMatrix::aaprofile’
+CodonSubMatrix.h:81: warning:   when initialized here
+In file included from MatrixPhyloProcess.h:21,
+                 from GeneralPathSuffStatMatrixPhyloProcess.h:20,
+                 from AACodonMutSelSBDPPhyloProcess.h:21,
+                 from AACodonMutSelSBDPPhyloProcess.cpp:19:
+PhyloProcess.h: In member function ‘virtual void PhyloProcess::QuickUpdate()’:
+PhyloProcess.h:235: warning: unused variable ‘stat’
+AACodonMutSelSBDPPhyloProcess.cpp: In member function ‘void AACodonMutSelSBDPPhyloProcess::ReadMapStats(std::string, int, int, int)’:
+AACodonMutSelSBDPPhyloProcess.cpp:463: warning: unused variable ‘stat’
+In file included from NNI.cpp:20:
+PhyloProcess.h: In member function ‘virtual void PhyloProcess::QuickUpdate()’:
+PhyloProcess.h:235: warning: unused variable ‘stat’
+NNI.cpp: In member function ‘void PhyloProcess::SlaveNNI(Link*, int)’:
+NNI.cpp:217: warning: unused variable ‘stat’
+NNI.cpp:220: warning: ‘br’ may be used uninitialized in this function
+NNI.cpp:221: warning: ‘m’ may be used uninitialized in this function
+In file included from MatrixPhyloProcess.h:21,
+                 from ExpoConjugateGTRPhyloProcess.h:20,
+                 from RASCATGTRFiniteGammaPhyloProcess.h:20,
+                 from Model.h:19,
+                 from ReadPB.cpp:18:
+PhyloProcess.h: In member function ‘virtual void PhyloProcess::QuickUpdate()’:
+PhyloProcess.h:235: warning: unused variable ‘stat’
+In file included from MatrixFiniteProfileProcess.h:21,
+                 from ExpoConjugateGTRFiniteProfileProcess.h:19,
+                 from RASCATGTRFiniteGammaPhyloProcess.h:22,
+                 from Model.h:19,
+                 from ReadPB.cpp:18:
+FiniteProfileProcess.h: In constructor ‘FiniteProfileProcess::FiniteProfileProcess(int)’:
+FiniteProfileProcess.h:93: warning: ‘FiniteProfileProcess::empweight’ will be initialized after
+FiniteProfileProcess.h:87: warning:   ‘int FiniteProfileProcess::dirweightprior’
+FiniteProfileProcess.h:28: warning:   when initialized here
+In file included from AACodonMutSelProfileProcess.h:20,
+                 from AACodonMutSelSBDPProfileProcess.h:21,
+                 from AACodonMutSelSBDPSubstitutionProcess.h:20,
+                 from AACodonMutSelSBDPPhyloProcess.h:20,
+                 from Model.h:23,
+                 from ReadPB.cpp:18:
+CodonSubMatrix.h: In constructor ‘AACodonMutSelProfileSubMatrix::AACodonMutSelProfileSubMatrix(CodonStateSpace*, double*, double*, double*, double*, double*, bool)’:
+CodonSubMatrix.h:96: warning: ‘AACodonMutSelProfileSubMatrix::codonprofile’ will be initialized after
+CodonSubMatrix.h:95: warning:   ‘double* AACodonMutSelProfileSubMatrix::aaprofile’
+CodonSubMatrix.h:81: warning:   when initialized here
