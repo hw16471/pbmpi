@@ -1,7 +1,7 @@
 #include /cm/shared/tools/tau-2.23.1-openmpi/gnu/x86_64/lib/Makefile.tau-papi-mpi-pdt
 
-#CC=mpic++
-CC=tau_cxx.sh
+CC=mpic++
+#CC=tau_cxx.sh
 
 CPPFLAGS= -w -O3 -c
 LDFLAGS= -O3
