@@ -1,2 +1,5 @@
 *.o
 *.d
+*.edf
+*.trc
+profile*
